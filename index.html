@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- LEtras -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/estilos.css" />
+    <link rel="shortcut icon" href="imagenes/icono.png" type="image/x-icon" />
+    <title>Proyecto Final (CV)</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#header1" data-bs-offset="50">
+    <header class="fixed-top">
+      <nav id="header1" class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="nav-link" href="/index.html" id="nombreYapellido"
+            >Roland Sullivan
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#formacionAcademica"
+                  >Formacion Academica</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#habilidades">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experienciaLaboral"
+                  >Experiencia Laboral</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobreMi"> + Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <div
+        id="carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-pause="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./imagenes/img1.png"
+              class="d-block w-100"
+              alt="presentacion"
+            />
+          </div>
+
+          <div class="carousel-item">
+            <a href="https://github.com/" target="_blank"
+              ><video class="w-100" autoplay loop>
+                <source src="./video/portfolio.mp4" type="video/mp4" /></video
+            ></a>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section id="formacionAcademica">
+        <div class="container">
+          <h1>Formacion Academica</h1>
+          <div id="cartaEducacion" class="row"></div>
+        </div>
+      </section>
+
+      <section id="habilidades">
+        <div class="container">
+          <div class="row d-flex">
+            <div id="tiposHabilidades" class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-4">
+              <h1>Habilidades</h1>
+            </div>
+            <div id="tiposHabilidades1" class="col-12 col-md-4"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experienciaLaboral">
+        <div class="container">
+          <h1>Experiencia Laboral</h1>
+          <div id="cartaExp" class="row"></div>
+        </div>
+      </section>
+
+      <section id="sobreMi">
+        <div class="container">
+          <div class="row d-flex">
+            <div class="col-12 col-md-5">
+              <h1>Sobre mi</h1>
+            </div>
+            <div class="col-12 col-md-7">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis quidem obcaecati iure assumenda molestiae minima
+                dignissimos possimus, accusantium rerum sunt, reprehenderit eos
+                nihil repellendus eum natus optio? Magni laudantium ea ipsam
+                voluptatem corrupti, eos doloribus fuga in, inventore eaque
+                illum tenetur iste. Voluptatem nesciunt sequi nihil saepe magni
+                molestias consequatur maiores ratione earum
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer">
+        <div class="container">
+          <div id="textoFooter">
+            <h1>Roland Sullivan</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos deleniti vel, optio voluptatibus dicta officiis
+              voluptatem pariatur soluta iste consequuntur ut dolore maiores
+              reiciendis repudiandae?
+            </p>
+            <ul class="imgRedes">
+              <li>
+                <a href="https://www.instagram.com/"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://web.whatsapp.com/"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- BOTON GOUP -->
+    <div class="go-top-container">
+      <div class="go-top-button">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <script
+      src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
+      integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/b3e023e30c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js"></script>
+  </body>
+  <div class="container-fluid" id="copyright">
+    <p id="copyright">
+      Copyright © Roland Sullivan - 2023. Todos los derechos reservados
+    </p>
+  </div>
+</html>
